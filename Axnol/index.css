@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    --bs-gutter-x: -0.5rem !important;
+  }
+  .navbar-brand img{
+      width: 100px;
+  }
+  .navbar-nav{
+    text-decoration: none;
+  }
+ .carousel-item{
+    display: block;
+  width: 100%;
+  height: 500px;
+ }
+ .lab-thumb img{
+     height: 220px;
+ }
+ .card img{
+     width: 300px;
+     
+ }
+ .btn1{
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+    text-decoration: none;
+    
+ }
+ @media only screen and (max-width: 800px) {
+
+    .carousel-caption {
+        color: black;
+        right: -15px;
+        text-align: center;
+
+        left: auto;
+        top: auto;
+        top: 40%;
+        transform: translateY(-50%);
+        bottom: initial;
+        
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+
+    }
+    .ads img{
+        width: 350px;
+    }
+    
+ }
+ .fontsize{
+     font-size: 24px;
+ }
